@@ -515,8 +515,8 @@ function OrionLib:MakeWindow(WindowConfig)
 	end
 	WindowConfig.FreeMouse = WindowConfig.FreeMouse or false
 	WindowConfig.KeyToOpenWindow = WindowConfig.KeyToOpenWindow or "RightShift"
-	WindowConfig.IntroText = WindowConfig.IntroText or "Cosmic Hub - The Next Generation"
-	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
+	WindowConfig.IntroText = WindowConfig.IntroText or "Limitless - The Next Generation"
+	WindowConfig.CloseCallback WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://8834748103"
 	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://8834748103"
